@@ -1,7 +1,7 @@
 *
 {
-    /* box-sizing: border-box; */
-    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Prata', serif;
 }
 
 .leftSide, .rightSide {
@@ -20,5 +20,20 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
 
+.rightSide {
+    background-color: #cdd2e1;
+    color: #383835;
+    font-family: 'Prata', serif;
+}
+
+.name {
+    font-size: 55px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+.rightSide, .title {
+    font-size: 30px;
 }
