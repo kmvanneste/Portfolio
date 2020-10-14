@@ -13,7 +13,7 @@
 }
 
 .navbar-brand {
-    color: silver;
+    color: #cdd2e1;
 }
 
 .leftSide, .rightSide {
@@ -28,7 +28,7 @@
 }
 
 .leftSide {
-    background-image: url('./images/IMG_1525_copy.jpg');
+    background-image: url('./images/Marble.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@
 }
 
 .name {
-    font-size: 55px;
+    font-size: 52px;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
 }
@@ -50,7 +50,33 @@
     font-size: 30px;
 }
 
+.aboutMe {
+    background-color: #333132;
+    color: white;
+    padding: 40px;
+}
+
+.sectionHeader {
+    margin-bottom: 30px;
+}
+
 .proPic {
-    height: 300px;
-    width: 300px;
+    height: 275px;
+    width: 275px;
+}
+
+.description {
+    font-size: 19px;
+}
+
+#portfolioHeader {
+    margin-top: 20px;
+}
+
+.projects {
+    background-color: #cdd2e1;
+}
+
+.card {
+/* height */
 }
