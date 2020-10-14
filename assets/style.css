@@ -13,7 +13,7 @@
 }
 
 .navbar-brand {
-    color: #cdd2e1;
+    color: #ccccff;
 }
 
 .leftSide, .rightSide {
@@ -44,6 +44,7 @@
     font-size: 52px;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
+    color: black;
 }
 
 .rightSide, .title {
@@ -57,7 +58,7 @@
 }
 
 .sectionHeader {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .proPic {
@@ -75,8 +76,11 @@
 
 .projects {
     background-color: #cdd2e1;
+    color: black;
+    padding: 40px;
 }
 
-.card {
-/* height */
+.card-deck {
+    width: 100%;
+
 }
