@@ -54,7 +54,11 @@
 .aboutMe {
     background-color: #333132;
     color: white;
-    padding: 40px;
+    padding: 20px;
+}
+
+#aboutMeHeader {
+    padding: 20px;
 }
 
 .sectionHeader {
@@ -82,5 +86,9 @@
 
 .card-deck {
     width: 100%;
+}
 
+.skills {
+    background-color: #333132;
+    color: white;
 }
