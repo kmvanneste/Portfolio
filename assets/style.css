@@ -67,8 +67,8 @@
 }
 
 .proPic {
-    height: 275px;
-    width: 275px;
+    height: 300px;
+    width: 305px;
 }
 
 .description {
@@ -97,4 +97,9 @@
 
 i {
     padding: 10px;
+}
+
+.contact {
+    background-color: #cdd2e3;
+    color: black;
 }
