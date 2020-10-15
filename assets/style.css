@@ -13,7 +13,7 @@
 }
 
 .navbar-brand {
-    color: #ccccff;
+    color: palegoldenrod;
 }
 
 .leftSide, .rightSide {
@@ -35,7 +35,7 @@
 }
 
 .rightSide {
-    background-color: #cdd2e1;
+    background-color: #cdd2e3;
     color: #383835;
     font-family: 'Prata', serif;
 }
@@ -79,7 +79,7 @@
 }
 
 .projects {
-    background-color: #cdd2e1;
+    background-color: #cdd2e3;
     color: black;
     padding: 40px;
 }
@@ -91,4 +91,9 @@
 .skills {
     background-color: #333132;
     color: white;
+    padding: 10px;
+}
+
+i {
+    padding: 10px;
 }
