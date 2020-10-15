@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Prata&family=Taviraj:wght@300;400&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="path/to/font-mfizz/font-mfizz.css">
+    <link rel="stylesheet" href="assets/mfizz.css">
     <link rel="stylesheet" href="assets/style.css" />
     <title>kmvn</title>
   </head>
@@ -22,10 +22,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#">Projects</a>
-          <a class="nav-link" href="#">Skills</a>
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </div>
       </div>
     </nav>
@@ -42,7 +42,7 @@
       </div>
     </section>
     <!-- About Me -->
-    <section class="aboutMe">
+    <section class="aboutMe" id="about">
       <div class="container">
         <div class="row">
           <div class="col-md-12 d-flex justify-content-center align-items-center">
@@ -77,7 +77,7 @@
     </section>
     <!-- Projects -->
         <!-- Header Container-->
- <section class="projects">
+ <section class="projects" id="projects">
     <div class="container">
         <div class="row">
             <div class="col-md-12 d-flex justify-content-center align-items-center">
@@ -170,7 +170,7 @@
         </div>
 </section>
     <!-- Skills -->
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center align-items-center">
@@ -197,47 +197,58 @@
             </div>
             <br><br>
             <div class="row">
-                <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
-                    <i class="icon-express"></i>
-                    <p>Express</p>
+                <div class="col-md-2 d-flex flex-column justify-content-center align-items-center">
+                    <i class="fas fa-globe-americas"></i>
+                    <p>ArcGIS</p>
                 </div> 
-                <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+ 
+                <div class="col-md-2 d-flex flex-column justify-content-center align-items-center">
                     <i class="fab fa-node"></i>
                     <p>Node.js</p>
                 </div>
-                <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-md-2 d-flex flex-column justify-content-center align-items-center">
                     <i class="icon-mysql"></i>
                     <p>MySQL</p>
                 </div>
-                <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-md-2 d-flex flex-column justify-content-center align-items-center">
                     <i class="icon-mongodb"></i>
                     <p>MongoDB</p>
                 </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
-                    <i class=""></i>
-                    <p>Material-UI</p>
-                </div> 
-                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-md-2 d-flex flex-column justify-content-center align-items-center">
                     <i class="fab fa-bootstrap"></i>
                     <p>Bootstrap</p>
                 </div>
-                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <div class="col-md-2 d-flex flex-column justify-content-center align-items-center">
                     <i class="fab fa-npm"></i>
                     <p>NPM</p>
                 </div> 
             </div>
+            <br><br>
+            <div class="row">
+                <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                    <p>Material-UI</p>
+                </div>
+                <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                    <p>Express.js</p>
+                </div> 
+                <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                    <p>Handlebars</p>
+                </div> 
+                <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                    <p>Redux</p>
+                </div> 
+            </div>
+            <br>
             <div class="row d-flex justify-content-center align-items-center">
+                <!-- <br><br>
                 <p>
-                    For a more in-depth list please review my resume or contact me below. 
-                </p>
+                    For more details list please review my resume or contact me below. 
+                </p> -->
             </div>
         </div>
     </section>
     <!-- Contact Me Form -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center align-items-center">
