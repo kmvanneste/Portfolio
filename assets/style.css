@@ -104,7 +104,11 @@ i {
     color: black;
 }
 
-footer {
+.footer {
     background-color:#333132;
     color: white;
+}
+
+.logo {
+    color: #333132;
 }
