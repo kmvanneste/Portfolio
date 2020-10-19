@@ -8,6 +8,9 @@
     background-color: #333132;
     font-size: 12pt;
     padding-left: 20px;
+    position: fixed;
+    z-index: 350;
+    width: 100%
 }
 
 .nav-link {
@@ -30,6 +33,7 @@
 }
 
 .leftSide, .rightSide {
+    margin-top: 55px;
     height: 50vh;
     width: 100%;
 }
@@ -57,12 +61,12 @@
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     color: black;
-    font-family: 'Prata', serif;
+    font-family: 'Alice', serif;
 }
 
 .rightSide, .title {
     font-size: 25px;
-    font-family: 'Prata', serif;
+    font-family: 'Alice', serif;
 }
 
 .aboutMe {
