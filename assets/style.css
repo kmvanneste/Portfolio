@@ -92,6 +92,10 @@
     width: 100%;
 }
 
+.card-header {
+    padding-top: 25px;
+}
+
 .skills {
     background-color: #333132;
     color: white;
