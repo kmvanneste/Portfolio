@@ -6,7 +6,8 @@
 
 .navbar {
     background-color: #333132;
-    font-size: 20pt;
+    font-size: 12pt;
+    padding-left: 20px;
 }
 
 .nav-link {
@@ -14,16 +15,18 @@
 }
 
 .nav-link:hover {
-    color: darkolivegreen;
+    color: palegoldenrod;
 }
 
 .navbar-brand {
     color: palegoldenrod;
     font-family: 'Prata', serif;
+    font-size: 15pt;
+    padding: -3px;
 }
 
 .navbar-brand:hover {
-    color: darkolivegreen;
+    color: white;
 }
 
 .leftSide, .rightSide {
@@ -50,7 +53,7 @@
 }
 
 .name {
-    font-size: 52px;
+    font-size: 45px;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     color: black;
@@ -58,7 +61,7 @@
 }
 
 .rightSide, .title {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Prata', serif;
 }
 
