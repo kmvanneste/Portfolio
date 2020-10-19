@@ -12,9 +12,17 @@
     color: white;
 }
 
+.nav-link:hover {
+    color: darkolivegreen;
+}
+
 .navbar-brand {
     color: palegoldenrod;
     font-family: 'Prata', serif;
+}
+
+.navbar-brand:hover {
+    color: darkolivegreen;
 }
 
 .leftSide, .rightSide {
@@ -88,7 +96,16 @@
     padding: 40px;
 }
 
-.card-deck {
+.btn {
+    opacity: .7;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.card-img-top {
+    height: 285px;
     width: 100%;
 }
 
@@ -133,3 +150,8 @@ i {
 .logo {
     color: #333132;
 }
+
+.logo:hover {
+    color: white;
+}
+
