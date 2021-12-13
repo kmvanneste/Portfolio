@@ -132,12 +132,13 @@
 }
 
 .card {
-    margin: 20px;
-    width: 100%;
+    margin-bottom: 30px;
+    /* min-width: 380px; */
+    max-width: 450px;
 }
 
 .card-img-top {
-    height: 200px;
+    height: 280px;
     /* width: 100%; */
     background-position: cover;
 }
