@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Enter your description here" />
+    <meta name="Kristen Michelle Van Neste's Portfolio" content="Includes a personal bio, links to published applications, listed skills, and contact information." />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
@@ -39,7 +39,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#">kmvn</a>
       <button
         class="navbar-toggler"
@@ -54,33 +54,35 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="#projects">Apps</a>
-          <a class="nav-link" href="#skills">Skills</a>
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="#about">ABOUT</a>
+          <a class="nav-link" href="#projects">APPS</a>
+          <a class="nav-link" href="#skills">SKILLS</a>
+          <a class="nav-link" href="#contact">CONTACT</a>
         </div>
       </div>
     </nav>
     <!--Name Banner-->
     <section class="row no-gutters">
-      <div class="col-md-6 no-gutters">
+      <div class="col-sm-6 no-gutters">
         <div
           class="leftSide d-flex justify-content-center align-items-center"
         ></div>
       </div>
-      <div class="col-md-6 no-gutters">
+      <div class="col-sm-6 no-gutters">
         <div
           class="rightSide d-flex flex-column justify-content-center align-items-center"
         >
           <div class="p-2 name">Kristen Michelle Van Neste</div>
-          <div class="p-2 title">Full-Stack Web Developer</div>
+          <div class="p-2 title">Front-End Web Developer</div>
         </div>
       </div>
+       <div id="about" style="margin-top: 800px;"></div>
     </section>
     <!-- About Me -->
-    <section class="aboutMe" id="about">
+    <section class="aboutMe" >
       <div class="container">
         <div class="row">
+          <!-- <div class="col-md-5"></div> -->
           <div
             class="col-md-12 d-flex justify-content-center align-items-center"
           >
@@ -89,7 +91,7 @@
         </div>
         <div class="row">
           <div
-            class="col-md-4 d-flex justify-content-center align-items-center"
+            class="col-lg-4 d-flex justify-content-center align-items-center proPicDiv"
           >
             <img
               src="assets/images/IMG_1666_cropped.JPG"
@@ -98,7 +100,7 @@
             />
           </div>
           <div
-            class="col-md-8 d-flex flex-column justify-content-center align-items-left description"
+            class="col-lg-8 d-flex flex-column justify-content-center align-items-left description"
           >
             <p class="description">
               My name is Kristen Michelle Van Neste and I am a software
@@ -106,155 +108,241 @@
             </p>
             <p class="description">
               Prior to starting my career as a web developer, I had the
-              incredible opportunity of working in all four corners of the
-              United States as an Associate Certified Wildlife Biologist. I
+              incredible experience of working as an Associate Certified Wildlife Biologist. I
               studied a wide range of wildlife, from bats in South Carolina to
               mountain lions in Los Angeles. My experiences as a biologist
               introduced me to technologies such as GIS, database management,
               and software development. After five years of field work I
               realized I was on the wrong career path - I turned down a funded
               Master's position at the University of Wisconsin and started
-              studying web development. When COVID-19 spread to the eastern
-              United States, I enrolled in the Rutgers University Coding Bootcamp. I graduated in October of 2020 and am
-              looking forward to joining a team of software engineers.
+              studying web development. Now, I work as the lead Front-End Developer at the non-profit Conservation Science Partners (CSP). 
+            </p>
+              
+            <p class="description">
+              At CSP, I specialize in building web map applications using JavaScript, React, MapboxGL JS, and Deck.GL. Within my first year I published three web applications for Microsoft promoting the release of the Planetary Computer, and am in the process of completing web apps for American Farmland Trust, Bureau of Land Management, and the North Central Climate Adaptation Science Center. Working closely with data scientists and engineers has exposed me to tools and languages such as Python, Google App Engine, Azure, Docker, Tippecanoe, and Google Analytics.
+              </p>
+
+            <p class="description">
+              As a proactive learner, I am always open to new opportunities to further develop my career.  
             </p>
           </div>
         </div>
+        <div id="projects"></div>
       </div>
       <br />
     </section>
     <!-- Projects -->
     <!-- Header Container-->
-    <section class="projects" id="projects">
+    <section class="projects" >
       <div class="container">
         <div class="row">
           <div
             class="col-md-12 d-flex justify-content-center align-items-center"
           >
-            <h2 id="appsHeader">Deployed Applications</h2>
+            <h2 id="appsHeader">Applications</h2>
           </div>
         </div>
         <div class="row">
           <div
             class="col-md-12 d-flex justify-content-center align-items-center"
           >
-            <h4 class="sectionHeader">Collaborations</h4>
+            <h4 class="sectionHeader"><b>Applications funded by Microsoft utilizing AI for Earth and Azure:</h4>
+          </div>
+          <div
+            class="col-md-12 d-flex justify-content-center align-items-center"
+          >
+            <h5 class="sectionHeader"><i>Responsibilities: Lead Front-End Developer, Lead UI/UX Designer, collaborated with Microsoft engineers and Conservation Science Partner's data scientists for map data.</i></h5>
           </div>
         </div>
       </div>
       <!-- row 1 -->
       <div class="row justify-content-center">
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-3 text-center">
           <div class="card shadow-lg justify-content-center">
             <img
-              src="./assets/images/Refresh.png"
+              src="./assets/images/farm-house.jpeg"
               class="card-img-top"
-              alt="Image of a Refresh Home page"
+              alt="Image farm house in a field"
             />
             <div class="card-header">
-              <h4 class="card-title">Refresh</h4>
+              <h5 class="card-title">Mapping wildlife connectivity across U.S. agricultural lands</h5>
             </div>
             <div class="card-body shadow-lg text-center">
               <p class="card-text">
-                Refresh is a task tracking app for one of your largest
-                investments - your home.
+                Exploring the role working landscapes play in facilitating wildlife movement.
               </p>
-              <p>MERN-Stack:</p>
-              <p>
-                React, Material-UI, JSX, Mongo, JWT Authentication, Node,
-                Express, ReactStrap
+              <p class="card-text">
+                React, MapboxGL, DeckGL, Azure, Material-UI
               </p>
             </div>
             <div class="card-footer">
-              <a href="https://home-refresh-app.herokuapp.com/" class="btn btn-dark" target="blank"
-                >Refresh</a
-              >
-              <a href="https://github.com/hihellos/Refresh" class="btn btn-dark" target="blank"
-                >Code</a
+              <a href="https://cspbeta.z22.web.core.windows.net/" class="btn btn-sm btn-dark" target="blank"
+                >Explore the App</a
               >
             </div>
           </div>
         </div>
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-3 text-center">
           <div class="card shadow-lg justify-content-center">
             <img
-              src="./assets/images/LocalGrub.png"
+              src="./assets/images/development.jpeg"
               class="card-img-top"
-              alt="Image of LocalGrub login"
+              alt="Image of construction site in front of a sunset"
             />
             <div class="card-header">
-              <h4 class="card-title">Local Grub</h4>
+              <h5 class="card-title">Visualizing anthropogenic impacts in the U.S.</h5>
             </div>
             <div class="card-body shadow-lg text-center">
               <p class="card-text">
-                Hungry? Support local businesses. Bookmark restaurants in any
-                city and discover your new favorite family restaurant.
+                Leveraging Azure cloud infrastructure to create estimates and maps of human land use metrics.
               </p>
-              <p>Full-Stack:</p>
-              <p>
-                React, Material-UI, JSX, Mongo, JWT Authentication, Node,
-                Express, ReactStrap
+              <p class="card-text">
+                React, MapboxGL, Azure, Material-UI, ReCharts
               </p>
             </div>
             <div class="card-footer">
-              <a href="https://localgrub.herokuapp.com/" class="btn btn-dark" target="blank"
-                >Local Grub</a
-              >
-              <a
-                href="https://github.com/eplatvoet/localgrub"
-                class="btn btn-dark" target="blank"
-                >Code</a
+              <a href="https://cspbeta.z22.web.core.windows.net/project2" class="btn btn-sm btn-dark" target="blank"
+                >Explore the App</a
               >
             </div>
           </div>
         </div>
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-3 text-center">
           <div class="card shadow-lg justify-content-center">
             <img
-              src="./assets/images/NASANow.png"
+              src="./assets/images/Disturbance.png"
               class="card-img-top"
-              alt="Image of NASA Now home page"
+              alt="Image for the MS Disturbance Web app"
             />
             <div class="card-header">
-              <h4 class="card-title">NASA Now</h4>
+              <h5 class="card-title">Monitoring forest change at scale with AI</h5>
             </div>
             <div class="card-body shadow-lg text-center">
               <p class="card-text">
-                NASA Now displays NASA's latest photographs, media, and youtube
-                videos.
+                Using the power of artificial intelligence to model and monitor fire disturbance over time. 
               </p>
-              <p>Front-End App:</p>
-              <p>
-                HTML5, CSS3, Bootstrap, JavaScript, jQuery, NASA API, YouTube
-                API
+              <p class="card-text">
+                React, MapboxGL, Azure, Material-UI, ReCharts
               </p>
             </div>
             <div class="card-footer">
               <a
-                href="https://kmvanneste.github.io/NASA-Now/"
-                class="btn btn-dark"
+                href="https://cspbeta.z22.web.core.windows.net/project3"
+                class="btn btn-sm btn-dark"
                 target="blank"
-                >NASA Now</a
-              >
-              <a
-                href="https://github.com/kmvanneste/NASA-Now"
-                class="btn btn-dark"
-                target="blank"
-                >Code</a
+                >Explore the App</a
               >
             </div>
           </div>
         </div>
       </div>
-      <!-- Header 2 -->
+<div class="container">
       <div class="row">
-        <div class="col-md-12 d-flex justify-content-center align-items-center">
-          <h4 class="sectionHeader">Individual Projects</h4>
+          <div
+            class="col-md-12 d-flex justify-content-center align-items-center"
+          >
+            <h4 class="sectionHeader"><b>Application funded by Microsoft Brazil and the Instituto Tecnologico Vale</b></h4>
+          </div>
+        </div>
+        <div
+            class="col-md-12 d-flex justify-content-center align-items-center"
+          >
+            <h5 class="sectionHeader"><i>Responsibilities: Lead Front-End Developer, Lead UI/UX Designer, collaborated with Microsoft Brazil engineers and Conservation Science Partner's data scientists for map data and app design.</i></h5>
+          </div>
         </div>
       </div>
-      <!-- Row 2 -->
-      <div class="row">
+</div>
+      <div class="row justify-content-center">
         <div class="col-lg-4 text-center">
+          <div class="card shadow-lg justify-content-center">
+            <img
+              src="./assets/images/farm-house.jpeg"
+              class="card-img-top"
+              alt="Image farm house in a field"
+            />
+            <div class="card-header">
+              <h5 class="card-title">Project Fluvius</h5>
+            </div>
+            <div class="card-body shadow-lg text-center">
+              <p class="card-text">
+                Estimating suspended sediment in the Itacaiunas River Basin
+              </p>
+              <p class="card-text">
+                React, MapboxGL, Azure, Material-UI
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://cspbeta.z22.web.core.windows.net/" class="btn btn-sm btn-dark" target="blank"
+                >Explore the App</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- row 3 -->
+<div class="container">
+      <div class="row justify-content-center">
+          <div
+            class="col-md-12 d-flex justify-content-center align-items-center"
+          >
+            <h4 class="sectionHeader"><b>Application funded by the Bureau of Land Management</b></h4>
+          </div>
+        </div>
+        <div
+            class="col-md-12 d-flex justify-content-center align-items-center"
+          >
+            <h5 class="sectionHeader"><i>Responsibilities: Front-End Team, collaborated with Conservation Science Partner's ecologists and private contractors.</i></h5>
+          </div>
+</div>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 text-center">
+          <div class="card shadow-lg justify-content-center">
+            <img
+              src="./assets/images/farm-house.jpeg"
+              class="card-img-top"
+              alt="Image farm house in a field"
+            />
+            <div class="card-header">
+              <h5 class="card-title">Project Fluvius</h5>
+            </div>
+            <div class="card-body shadow-lg text-center">
+              <p class="card-text">
+                Estimating suspended sediment in the Itacaiunas River Basin
+              </p>
+              <p class="card-text">
+                React, MapboxGL, Azure, Material-UI
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://cspbeta.z22.web.core.windows.net/" class="btn btn-sm btn-dark" target="blank"
+                >Explore the App</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Header 4 -->
+<div class="container">
+      <div class="row">
+          <div
+            class="col-md-12 d-flex justify-content-center align-items-center"
+          >
+            <h4 class="sectionHeader"><b>Miscellaneous Projects</b></h4>
+          </div>
+        </div>
+        <div
+            class="col-md-12 d-flex justify-content-center align-items-center"
+          >
+            <h5 class="sectionHeader"><i>Responsibilities: None - built for practice and fun.</i></h5>
+          </div>
+        </div>
+      </div>
+</div>
+      <!-- Row 4 -->
+      <div class="row justify-content-center">
+        <div class="col-lg-3 justify-content-center align-items-center text-center">
           <div class="card shadow-lg justify-content-center">
             <img
               src="./assets/images/City_Weather.png"
@@ -269,7 +357,6 @@
                 Traveling to your favorite metropolitan area? Use City-Weather
                 to help plan your next trip.
               </p>
-              <p>Front-End App:</p>
               <p>HTML5, CSS3, Bootstrap, JavaScript, OpenWeather API</p>
             </div>
             <div class="card-footer">
@@ -277,7 +364,7 @@
                 href="https://kmvanneste.github.io/City-Weather/"
                 class="btn btn-dark"
                 target="blank"
-                >City Weather</a
+                >Explore the App</a
               >
               <a
                 href="https://github.com/kmvanneste/City-Weather"
@@ -288,7 +375,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-3 text-center">
           <div class="card shadow-lg justify-content-center">
             <img
               src="./assets/images/lion.jpg"
@@ -303,7 +390,6 @@
                 So you think you know a thing or two about the animal kingdom?
                 Take this timed quiz to test your knowledge!
               </p>
-              <p>Front-End App:</p>
               <p>HTML5, CSS3, JavaScript</p>
             </div>
             <div class="card-footer">
@@ -311,7 +397,7 @@
                 href="https://kmvanneste.github.io/Code-Quiz/"
                 class="btn btn-dark"
                 target="blank"
-                >Animal Quiz</a
+                >Explore the App</a
               >
               <a
                 href="https://github.com/kmvanneste/Code-Quiz"
@@ -322,7 +408,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-3 text-center">
           <div class="card shadow-lg justify-content-center">
             <img
               src="./assets/images/Budget.png"
@@ -337,7 +423,6 @@
                 Keep your budget balanced by adding expenses and deposits with
                 or without an internet connection.
               </p>
-              <p>PWA, Offline-Compatible, Full-Stack App:</p>
               <p>HTML5, CSS3, Bootstrap, MongoDB, JavaScript, Node, Express</p>
             </div>
             <div class="card-footer">
@@ -357,9 +442,10 @@
           </div>
         </div>
       </div>
+      <div id="skills"></div>
     </section>
     <!-- Skills -->
-    <section class="skills" id="skills">
+    <section class="skills" >
       <div class="container">
         <div class="row">
           <div
@@ -446,7 +532,7 @@
             <p>Express.js</p>
           </div>
         </div>
-        <br /><br /><br />
+        <br id="contact" /><br /><br />
         <div class="row d-flex justify-content-center align-items-center">
           <!-- <br><br>
                 <p>
@@ -456,7 +542,7 @@
       </div>
     </section>
     <!-- Contact Me Form -->
-    <section class="contact" id="contact">
+    <section class="contact" >
       <div class="container">
         <div class="row">
           <div

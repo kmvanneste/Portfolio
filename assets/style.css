@@ -15,6 +15,8 @@
 
 .nav-link {
     color: white;
+    font-family: 'Alice', serif;
+    font-size: 18px;
 }
 
 .nav-link:hover {
@@ -24,24 +26,18 @@
 .navbar-brand {
     color: palegoldenrod;
     font-family: 'Alice', serif;
-    font-size: 15pt;
+    font-size: 18pt;
 }
 
 .navbar-brand:hover {
     color: white;
 }
 
-.leftSide, .rightSide {
+/* .leftSide, .rightSide {
     margin-top: 55px;
     height: 50vh;
     width: 100%;
-}
-
-@media screen and (min-width: 768px) {
-    .leftSide, .rightSide {
-        height: 100vh;
-    }
-}
+} */
 
 .leftSide {
     background-image: url('./images/Marble.jpg');
@@ -55,17 +51,35 @@
     color: #383835;
 }
 
+@media screen and (min-width: 100px) {
+    .leftSide {
+        margin-top: 55px;
+        margin-bottom: -75px;
+        height: 85vh;
+    }
+    .rightSide {
+        margin-top: 55px;
+        margin-bottom: -75px;
+        height: 85vh;
+    }
+}
+
+
+
 .name {
     font-size: 55px;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     color: black;
     font-family: 'Alice', serif;
+    text-align: center;
 }
 
 .rightSide, .title {
     font-size: 35px;
     font-family: 'Alice', serif;
+    text-align: center;
+
 }
 
 .aboutMe {
@@ -77,25 +91,29 @@
 
 #aboutMeHeader {
     padding: 20px;
+    margin-top: 15px;
     font-family: 'Alice', serif;
 }
 
 #appsHeader {
     font-family: 'Alice', serif;
+    margin-bottom: 30px;
 }
 
 .sectionHeader {
-    margin: 33px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-family: 'Alice', serif;
 }
 
 .proPic {
-    height: 300px;
-    width: 305px;
+    height: 365px;
+    width: 365px;
+    margin-right: 35px;
 }
 
 .description {
-    font-size: 19px;
+    font-size: 18px;
     font-family: 'Alice', serif;
 }
 
@@ -113,14 +131,24 @@
     opacity: 1;
 }
 
-.card-img-top {
-    height: 285px;
+.card {
+    margin: 20px;
     width: 100%;
-    /* background-position: cover; */
+}
+
+.card-img-top {
+    height: 200px;
+    /* width: 100%; */
+    background-position: cover;
 }
 
 .card-header {
     padding-top: 25px;
+}
+
+.card-text {
+    font-size: 14px;
+    padding: -5px;
 }
 
 .skills {
