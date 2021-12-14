@@ -33,11 +33,9 @@
     color: white;
 }
 
-/* .leftSide, .rightSide {
-    margin-top: 55px;
-    height: 50vh;
-    width: 100%;
-} */
+.nameRow {
+    height: 90vh;
+}
 
 .leftSide {
     background-image: url('./images/Marble.jpg');
@@ -47,7 +45,7 @@
 }
 
 .rightSide {
-    margin-top: 155px;
+    /* margin-top: 155px; */
     background-color: #cdd2e3;
     color: #383835;
 }
@@ -56,12 +54,12 @@
     .leftSide {
         margin-top: 55px;
         margin-bottom: -135px;
-        height: 93vh;
+        height: 85vh;
     }
     .rightSide {
         margin-top: 55px;
         margin-bottom: -1355px;
-        height: 93vh;
+        height: 85vh;
     }
 }
 
@@ -78,7 +76,6 @@
     font-size: 35px;
     font-family: 'Alice', serif;
     text-align: center;
-
 }
 
 .aboutMe {
@@ -88,7 +85,7 @@
     font-family: 'Alice', serif;
 }
 
-#aboutMeHeader {
+.aboutMeHeader {
     padding: 20px;
     margin-top: 15px;
     font-family: 'Alice', serif;
