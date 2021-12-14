@@ -47,6 +47,7 @@
 }
 
 .rightSide {
+    margin-top: 155px;
     background-color: #cdd2e3;
     color: #383835;
 }
@@ -54,17 +55,15 @@
 @media screen and (min-width: 100px) {
     .leftSide {
         margin-top: 55px;
-        margin-bottom: -75px;
-        height: 85vh;
+        margin-bottom: -135px;
+        height: 93vh;
     }
     .rightSide {
         margin-top: 55px;
-        margin-bottom: -75px;
-        height: 85vh;
+        margin-bottom: -1355px;
+        height: 93vh;
     }
 }
-
-
 
 .name {
     font-size: 55px;
