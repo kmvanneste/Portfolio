@@ -51,6 +51,14 @@ html {
   background-color: #1e1f26;
   padding-top: 45px;
 }
+.app_section {
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1f26;
+}
 .blur{
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(8px);
@@ -65,10 +73,19 @@ html {
   align-items: center;
   justify-content: center;
 }
+.app_container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
 .left {
   width: 50%;
   height: 500px;
   background: url("./images/Athens_sunset.jpeg") no-repeat center / cover;
+  margin-right: -20px;
 }
 .rightBackground{
   width: 43%;
