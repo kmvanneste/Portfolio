@@ -1,200 +1,255 @@
-*
-{
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+html {
+  font-family: "Montserrat";
+  scroll-behavior: smooth;
 }
 
 .navbar {
-    background-color: #333132;
-    font-size: 12pt;
-    padding-left: 20px;
-    position: fixed;
-    z-index: 350;
-    width: 100%
+  background-color: #1e1f26;
+  font-size: 11pt;
+  padding-left: 22px;
+  position: fixed;
+  z-index: 350;
+  width: 100%;
+  height: 45px;
 }
 
 .nav-link {
-    color: white;
-    font-family: 'Alice', serif;
-    font-size: 18px;
+  color: white;
+  font-size: 17px;
+  margin-left: 13px;
 }
 
 .nav-link:hover {
-    color: palegoldenrod;
+  color: palegoldenrod;
 }
 
 .navbar-brand {
-    color: palegoldenrod;
-    font-family: 'Alice', serif;
-    font-size: 18pt;
+  color: palegoldenrod;
+  /* font-family: "Alice", serif; */
+  font-size: 18pt;
 }
 
 .navbar-brand:hover {
+  color: white;
+}
+
+.top_section {
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1f26;
+  padding-top: 45px;
+}
+.blur{
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  min-height: 66vh;
+  width: 100%;
+}
+.top_container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  width: 50%;
+  height: 500px;
+  background: url("./images/Athens_sunset.jpeg") no-repeat center / cover;
+}
+.rightBackground{
+  width: 43%;
+  min-height: 300px;
+  background-color: #ffdc4e;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  margin-top: 84px;
+  margin-left: -385px;
+  z-index: 0;
+}
+.right {
+  width: 50%;
+  min-height: 300px;
+  background-color: #303137;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  color: white;
+  margin-left: -150px;
+  z-index: 1;
+}
+.right h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+.right p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+}
+.right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  display: inline-block;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    height: 60px;
+    margin-bottom: 65px;
+  }
+  .name_container {
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 20px;
+  }
+  .left {
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+  }
+  .right {
+    width: 90%;
+    margin: 0;
+    margin-top: -100px;
+    z-index: 2;
+  }
+  .rightBackground {
+    width: 93%;
+    margin: 0;
+    margin-top: -350px;
+    z-index: 0;
+    height: 360px;
+  }
+}
+
+.sunset_background {
+  background: url("./images/Athens_sunset.jpeg") no-repeat center / cover;
+}
+
+.ocean_background {
+  background: url("./images/ocean-birdseye.jpg") no-repeat center / cover;
+  filter: brightness(80%)
+}
+
+.calm_ocean_background {
+      background: url("./images/ocean-zoomed-in.jpg") no-repeat center / cover;
+}
+
+.purpleSection {
+  background-color: #5f7590;
+  color: black;
+  padding: 40px;
+}
+
+.blackSection {
+  background-color: #1e1f26;
+  color: white;
+  padding: 40px;
+}
+
+.darkestSection {
+  background-color: #1e1f26;
+  color: white;
+  padding: 40px;
+}
+
+.whiteText {
     color: white;
-}
-
-.nameRow {
-    height: 90vh;
-}
-
-.leftSide {
-    background-image: url('./images/Marble.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.rightSide {
-    /* margin-top: 155px; */
-    background-color: #cdd2e3;
-    color: #383835;
-}
-
-@media screen and (min-width: 100px) {
-    .leftSide {
-        margin-top: 55px;
-        margin-bottom: -135px;
-        height: 85vh;
-    }
-    .rightSide {
-        margin-top: 55px;
-        margin-bottom: -1355px;
-        height: 85vh;
-    }
-}
-
-.name {
-    font-size: 55px;
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
-    color: black;
-    font-family: 'Alice', serif;
-    text-align: center;
-}
-
-.rightSide, .title {
-    font-size: 35px;
-    font-family: 'Alice', serif;
-    text-align: center;
-}
-
-.aboutMe {
-    background-color: #333132;
-    color: white;
-    padding: 20px;
-    font-family: 'Alice', serif;
-}
-
-.aboutMeHeader {
-    padding: 20px;
-    margin-top: 15px;
-    font-family: 'Alice', serif;
-}
-
-#appsHeader {
-    font-family: 'Alice', serif;
-    margin-bottom: 30px;
+    /* background-color:rgba(48, 49, 54, 1); */
+    padding: 40px;
+    
 }
 
 .sectionHeader {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-family: 'Alice', serif;
-    text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .sectionSubHeader {
-    margin-bottom: 40px;
-    font-family: 'Alice', serif;
-    text-align: center;
-
+  margin-bottom: 40px;
 }
 
 .proPic {
-    height: 365px;
-    width: 365px;
-    margin-right: 35px;
+  height: 365px;
+  width: 365px;
+  margin-right: 35px;
 }
 
 .description {
-    font-size: 18px;
-    font-family: 'Alice', serif;
-}
-
-.projects {
-    background-color: #cdd2e3;
-    color: black;
-    padding: 40px;
+  font-size: 18px;
 }
 
 .btn {
-    opacity: .7;
+  opacity: 0.7;
 }
 
 .btn:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .card {
-    margin-bottom: 30px;
-    /* min-width: 380px; */
-    max-width: 450px;
+  margin-bottom: 30px;
+  max-width: 450px;
+  height: 520px;
 }
 
 .card-img-top {
-    height: 280px;
-    /* width: 100%; */
-    background-position: cover;
+  height: 200px;
+  background-position: no-repeat center / cover;
 }
 
 .card-header {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 .card-text {
-    font-size: 14px;
-    padding: -5px;
-}
-
-.skills {
-    background-color: #333132;
-    color: white;
-    padding: 10px;
+  font-size: 14px;
+  padding: -5px;
 }
 
 #skillsHeader {
-    font-family: 'Alice', serif;
-    padding-top: 5px;
-    padding: 30px;
+  padding-top: 5px;
+  padding: 30px;
 }
 
 i {
-    padding: 12px;
-}
-
-.contact {
-    background-color: #cdd2e3;
-    color: black;
+  padding: 12px;
 }
 
 #contactHeader {
-    font-family: 'Alice', serif;
-    padding-top: 35px;
-    padding-bottom: 10px;
+  padding-top: 35px;
+  padding-bottom: 10px;
 }
 
 .footer {
-    background-color:#333132;
-    color: white;
-    font-family: 'Alice', serif;
-
+  background-color: #333132;
+  color: white;
 }
 
 .logo {
-    color: #333132;
+  color: #333132;
 }
 
 .logo:hover {
-    color: white;
+  color: white;
 }
-
