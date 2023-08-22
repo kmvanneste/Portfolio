@@ -39,7 +39,7 @@
   </nav>
 
   <!-- Name Banner -->
-  <section class="top_section">
+  <section class="top_section sunset_background">
     <div class="blur">
     <div class="top_container">
       <div class="left"></div>
@@ -109,7 +109,7 @@
     </div>
   </section>
   <!--  -->
-  <section class="purpleSection">
+  <section class="lightBlueSection">
     <div class="container">
       <div class="row">
         <div class="col-md-12 d-flex align-items-center">
@@ -365,6 +365,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $(window).scroll(function() {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+    })
+  </script>
 </body>
 
 </html>
