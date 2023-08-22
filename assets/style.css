@@ -161,17 +161,15 @@ html {
     z-index: 1;
   }
   .right {
-    width: 90%;
+    width: 100%;
     margin: 0;
-    margin-top: -100px;
     z-index: 2;
   }
   .rightBackground {
-    width: 93%;
+    width: 15%;
     margin: 0;
-    margin-top: -350px;
     z-index: 0;
-    height: 360px;
+    height: 150px;
   }
 }
 
