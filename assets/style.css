@@ -24,7 +24,9 @@ html {
 
 .navbar-dark {
     background-color: transparent !important;
+    transition: 0.75s ease;
 }
+
 .navbar-dark.scrolled {
     background-color: #1e1f26 !important;
 }
@@ -35,18 +37,8 @@ html {
   margin-left: 13px;
 }
 
-.nav-link:hover {
-  color: palegoldenrod;
-}
-
 .navbar-brand {
-  color: palegoldenrod;
-  /* font-family: "Alice", serif; */
   font-size: 18pt;
-}
-
-.navbar-brand:hover {
-  color: white;
 }
 
 .top_section {
@@ -55,17 +47,14 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1e1f26;
   padding-top: 45px;
-
 }
 .app_section {
-  min-height: 50vh;
+  /* min-height: 50vh; */
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1e1f26;
 }
 .blur{
   background: rgba(255, 255, 255, 0.0);
@@ -80,15 +69,13 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 .app_container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 50px auto;
+  margin-top: 40px;
+  margin-bottom: 0px;
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
 }
 .left {
   width: 50%;
@@ -100,7 +87,7 @@ html {
   border-color: white;
   border-width: 15px;
   background: rgba(255, 255, 255, 0.0);
-  backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px); */
 
 }
 .rightBackground{
@@ -177,15 +164,6 @@ html {
   background: url("./images/Athens_sunset.jpeg") no-repeat center / cover;
 }
 
-.ocean_background {
-  background: url("./images/ocean-birdseye.jpg") no-repeat center / cover;
-  filter: brightness(95%)
-}
-
-.calm_ocean_background {
-      background: url("./images/ocean-zoomed-in.jpg") no-repeat center / cover;
-}
-
 .purpleSection {
   background-color: #5f7590;
   color: black;
@@ -198,9 +176,9 @@ html {
   padding: 40px;
 }
 
-.darkestSection {
-  background-color: #1e1f26;
-  color: white;
+.whiteSection {
+  background-color: white;
+  color: black;
   padding: 40px;
 }
 
@@ -223,16 +201,11 @@ html {
   margin-bottom: 40px;
 }
 
-.proPic {
-  min-height: 40vh;
-  width: 100%;
-  display: flex;
-  margin: 30px;
-  background-position: no-repeat center / cover;
-}
-
-.description {
-  font-size: 18px;
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 .btn {
@@ -245,8 +218,17 @@ html {
 
 .card {
   margin-bottom: 30px;
-  max-width: 450px;
-  height: 520px;
+  min-width: 300px;
+  max-width: 350px;
+  /* height: 520px; */
+  color: black;
+}
+
+.solo-card {
+  margin-bottom: 30px;
+  min-width: 300px;
+  max-width: 400px;
+  /* height: 520px; */
   color: black;
 }
 
@@ -270,23 +252,14 @@ html {
 }
 
 i {
-  padding: 12px;
-}
-
-#contactHeader {
-  padding-top: 35px;
-  padding-bottom: 10px;
-}
-
-.footer {
-  background-color: #333132;
-  color: white;
+  padding: 10px 0px 10px 0px;
 }
 
 .logo {
   color: #333132;
+  padding-right: 10px;
 }
 
 .logo:hover {
-  color: white;
+  color: grey;
 }
