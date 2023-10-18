@@ -23,12 +23,12 @@ html {
 }
 
 .navbar-dark {
-    background-color: transparent !important;
-    transition: 0.75s ease;
+  background-color: transparent !important;
+  transition: 0.75s ease;
 }
 
 .navbar-dark.scrolled {
-    background-color: #1e1f26 !important;
+  background-color: #1e1f26 !important;
 }
 
 .nav-link {
@@ -56,8 +56,8 @@ html {
   align-items: center;
   justify-content: center;
 }
-.blur{
-  background: rgba(255, 255, 255, 0.0);
+.blur {
+  background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(0px);
   min-height: 66vh;
   width: 100%;
@@ -86,11 +86,10 @@ html {
   border-color: #303137;
   border-color: white;
   border-width: 15px;
-  background: rgba(255, 255, 255, 0.0);
+  background: rgba(255, 255, 255, 0);
   /* backdrop-filter: blur(5px); */
-
 }
-.rightBackground{
+.rightBackground {
   width: 15%;
   min-height: 250px;
   background-color: #ffdc4e;
@@ -183,13 +182,13 @@ html {
 }
 
 .lightBlueSection {
-    background-color: #185366;
-    color: white;
-    padding: 40px;
+  background-color: #185366;
+  color: white;
+  padding: 40px;
 }
 
 .whiteText {
-    color: white;    
+  color: white;
 }
 
 .sectionHeader {
