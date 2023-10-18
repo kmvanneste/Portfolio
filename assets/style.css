@@ -263,3 +263,7 @@ i {
 .logo:hover {
   color: grey;
 }
+
+.footer {
+  padding: 2px;
+}
