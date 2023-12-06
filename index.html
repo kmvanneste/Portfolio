@@ -51,18 +51,10 @@
     </nav>
 
     <!-- Name Banner -->
-    <section class="top_section sunset_background">
-      <div class="top_container">
-        <div class="left"></div>
-        <div class="right">
-          <div class="content">
-            <h1>Kristen M. Van Neste</h1>
-            <p>
-              Front-End Web Engineer<br />UI/UX Developer<br />Washington, D.C.
-            </p>
-          </div>
-        </div>
-        <div class="rightBackground"></div>
+    <section class="console_section">
+      <div class="console-container">
+        <span id="text"></span>
+        <div class="console-underscore" id="console">&#95;</div>
       </div>
     </section>
 
@@ -71,7 +63,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 justify-content-center align-items-left">
-            <h3>Hi there!</h3>
+            <h3>Hello World</h3>
             <br />
           </div>
         </div>
@@ -81,23 +73,20 @@
           >
             <p>
               My name is Kristen Michelle Van Neste and I am a Lead Front-End
-              Engineer at Booz Allen Hamilton (BAH), a Washington, D.C. tech
-              consulting firm.
+              Engineer at Booz Allen Hamilton (BAH) in Washington, D.C.
             </p>
 
             <p>
               I specialize in building interactive applications and data
-              visualization dashboards. My ability to communicate effectively
-              with clients, developers, designers, and data scientists makes me
-              a valuable asset to any team. I have a strong belief that data can
-              tell a story. With a powerful interface and clean design, leaders
-              can make insightful, evidence-based decisions while utilizing my
-              dashboards and web apps.
+              visualization dashboards by utilizing maps, animations, images,
+              charts, and videos. My ability to communicate effectively with
+              clients, developers, designers, and data scientists makes me a
+              valuable asset to your team. Data can tell a story, especially
+              when it is combined with a powerful interface and clean design.
             </p>
 
             <p>
-              If you would like to know more or discuss a project please reach
-              out:
+              If you are interested in working with me, please reach out:
               <u
                 ><a style="color: white" href="mailto:kmvanneste17@gmail.com"
                   >kmvanneste17@gmail.com</a
@@ -110,17 +99,17 @@
         <div id="projects"></div>
       </div>
     </section>
-    <!-- Apps -->
-    <section class="section">
+    <!-- Applications -->
+    <!-- Header -->
+    <section class="whiteSection">
       <div class="app_container">
         <div class="row">
-          <div class="col-md-12 d-flex">
-            <h2 class="sectionHeader">Applications</h2>
+          <div class="col-md-12 d-flex justify-content-center align-items-center">
+            <h2 class="mainSectionHeader">Public Facing Applications</h2>
           </div>
         </div>
       </div>
-    </section>
-    <!--  -->
+      <!-- First Row -->
     <div class="container">
       <div class="row">
         <div class="col-md-12 d-flex align-items-center">
@@ -145,7 +134,6 @@
               alt="data.census.gov"
             />
           </div>
-
           <div class="card justify-content-center">
             <div class="card-header">
               <h5 class="card-title">Explore Census Data</h5>
@@ -169,8 +157,7 @@
         </div>
       </div>
     </div>
-
-    <!--  -->
+    <!-- 2nd Row -->
     <section class="whiteSection">
       <div class="container">
         <div class="row">
@@ -278,7 +265,7 @@
           </div>
         </div>
       </div>
-      <!-- Row 2 -->
+      <!-- Row 3 -->
       <br /><br />
       <div class="container">
         <div class="row">
@@ -332,9 +319,10 @@
           </div>
         </div>
       </div>
-
+      <br />
       <div id="skills"></div>
     </section>
+  </section>
     <!-- Skills -->
     <section class="blackSection">
       <div class="container">
@@ -342,7 +330,7 @@
           <div
             class="col-md-12 d-flex justify-content-center align-items-center"
           >
-            <h2 id="skillsHeader">Strongest Skills</h2>
+            <h2 class="mainSectionHeader">Strongest Skills</h2>
           </div>
         </div>
         <div class="row">
@@ -450,13 +438,12 @@
       </div>
     </section>
     <!-- Contact Me -->
-    <section class="whiteSection">
+    <section class="sunsetSection">
       <div class="row">
         <div
           class="col flex-column d-flex justify-content-left align-items-left"
         >
           <h2>Kristen M. Van Neste</h2>
-          <p>kmvanneste17@gmail.com</p>
           <div class="d-flex flex-row justify-content-left align-items-center">
             <a
               class="logo"
@@ -472,7 +459,7 @@
             ></a>
           </div>
         </div>
-        <div class="d-flex justify-content-right align-items-right">
+        <!-- <div class="d-flex justify-content-right align-items-right">
           <iframe
             src="assets/images/Van Neste - Resume 10_2023.pdf"
             title="Kristen's Resume"
@@ -481,7 +468,7 @@
             class="shadow-sm"
           >
           </iframe>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- Footer -->
@@ -491,10 +478,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-      $(window).scroll(function () {
-        $("nav").toggleClass("scrolled", $(this).scrollTop() > 100);
-      });
-    </script>
+    <script src="js/app.js"></script>
   </body>
 </html>
