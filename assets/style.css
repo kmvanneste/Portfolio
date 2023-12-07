@@ -50,34 +50,33 @@ html {
 }
 
 .top_section {
-  min-height: 60vh;
+  min-height: 50vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 .hidden {
   opacity: 0;
 }
 .console_section {
-  min-height: 70vh;
+  min-height: 85vh;
   background-color: #1e1f26;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
 }
 .console-container {
   font-family: Khula;
-  font-size: 4.5em;
+  font-size: 4em;
   text-align: center;
   height: 200px;
   width: 600px;
   display: block;
   color: white;
+  padding-top: 40px;
 }
 .console-underscore {
   display: inline-block;
@@ -92,13 +91,6 @@ html {
   align-items: center;
   justify-content: center;
 }
-/* .app_container {
-  margin-top: 40px;
-  margin-bottom: 2 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .purpleSection {
   background-color: #5f7590;
@@ -119,11 +111,11 @@ html {
 }
 
 .sunsetSection {
-  background-image: linear-gradient(#9397a1, #efb989);
+  background-image: linear-gradient(-45deg, #46344e, #f2f2f2);
+  background-size: 180% 180%;
   color: black;
   padding: 60px;
 }
-
 
 .mainSectionHeader {
   padding-top: 5px;
@@ -187,15 +179,35 @@ html {
   padding: -5px;
 }
 
-
-
 i {
   padding: 10px 0px 10px 0px;
+  text-align: center;
+  line-height: 63px;
+  border-radius: 50%;
+  color: #666;
+  transition: .5s;
+}
+
+i:hover {
+  color: #ffee10;
+}
+
+.icon_img {
+  background-color: #666;
+  color: #666;
+  margin-bottom: 20px;
+  border-radius: 0%;
+  transition: .5s;
+
+}
+
+img:hover {
+  background-color: #ffee10;
 }
 
 .logo {
-  color: #333132;
-  padding-right: 10px;
+  color: #000000;
+  padding-right: 15px;
 }
 
 .logo:hover {
@@ -204,4 +216,25 @@ i {
 
 .footer {
   padding: 2px;
+}
+
+.animatedBackground {
+  background: linear-gradient(-45deg, #46344e, #f2f2f2);
+  background-size: 200% 200%;
+  animation: gradient 20s ease infinite;
+  padding: 50px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }

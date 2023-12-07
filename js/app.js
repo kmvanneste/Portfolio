@@ -5,9 +5,11 @@ $(window).scroll(function () {
 
 // Terminal Text Effect
 consoleText(["Kristen Michelle Van Neste", "Front-End Web Developer", "Wildlife Biologist", "Yoga Teacher", "Daughter", "Sister", "Neighbor", "Friend"], "text", [
-  "tomato",
-  "rebeccapurple",
-  "lightblue",
+//   "tomato",
+//   "rebeccapurple",
+//   "lightblue",
+// "#ffee10",
+// "#8201eb"
 ]);
 
 function consoleText(words, id, colors) {
