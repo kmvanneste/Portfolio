@@ -4,13 +4,26 @@ $(window).scroll(function () {
 });
 
 // Terminal Text Effect
-consoleText(["Kristen Michelle Van Neste", "Front-End Web Developer", "Wildlife Biologist", "Yoga Teacher", "Daughter", "Sister", "Neighbor", "Friend"], "text", [
-//   "tomato",
-//   "rebeccapurple",
-//   "lightblue",
-// "#ffee10",
-// "#8201eb"
-]);
+consoleText(
+  [
+    "Kristen Michelle Van Neste",
+    "Front-End Web Developer",
+    "Wildlife Biologist",
+    "Yoga Instructor",
+    "Daughter",
+    "Sister",
+    "Friend",
+    "Neighbor",
+  ],
+  "text",
+  [
+    //   "tomato",
+    //   "rebeccapurple",
+    //   "lightblue",
+    // "#ffee10",
+    // "#8201eb"
+  ]
+);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ["#fff"];
