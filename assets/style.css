@@ -79,8 +79,7 @@ html {
   display: block;
   color: white;
   padding-top: 40px;
-    color: #ffee10;
-
+  color: #ffee10;
 }
 .console-underscore {
   display: inline-block;
@@ -110,7 +109,6 @@ html {
 }
 
 .mediumPurpleSection {
-  /* background-image: linear-gradient(-45deg, #f2f2f2, #65576c, #f2f2f2); */
   background-color: #65576c;
   background-size: 120% 120%;
   color: white;
@@ -118,17 +116,15 @@ html {
 }
 
 .blackToPurpleSection {
-    background-image: linear-gradient(#1e1f26, #46344e);
-      color: white;
+  background-image: linear-gradient(#1e1f26, #46344e);
+  color: white;
   padding: 60px;
-
 }
 
 .purpleToBlackSection {
-    background-image: linear-gradient( #46344e, #1e1f26);
-      color: white;
+  background-image: linear-gradient(#46344e, #1e1f26);
+  color: white;
   padding: 60px;
-
 }
 
 .mainSectionHeader {
@@ -199,7 +195,7 @@ i {
   line-height: 63px;
   border-radius: 50%;
   color: #666;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 i:hover {
@@ -211,8 +207,7 @@ i:hover {
   color: #666;
   margin-bottom: 20px;
   border-radius: 0%;
-  transition: .5s;
-
+  transition: 0.5s;
 }
 
 img:hover {
@@ -224,12 +219,8 @@ img:hover {
   padding-right: 15px;
 }
 
-.logo:hover {
-  color: grey;
-}
-
 .footer {
   padding: 2px;
   background-color: #46344e;
-  color: white
+  color: white;
 }
