@@ -8,7 +8,7 @@ consoleText(
   [
     "Kristen Michelle Van Neste",
     "Front-End Web Developer",
-    "Full-Stack Geospatial Engineer"
+    "Full-Stack Geospatial Engineer",
     "Wildlife Biologist",
     "Yoga Instructor",
     "Daughter",
