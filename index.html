@@ -20,7 +20,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/font-mfizz.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/input.css" />
 
@@ -66,7 +65,7 @@
     </section>
 
     <!-- About Me -->
-    <section class="top_section" id="about">
+    <section class="purpleSection" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 justify-content-center align-items-center">
@@ -74,8 +73,8 @@
               class="headshot"
               src="./assets/images/IMG_1666.jpeg"
               alt="headshot"
-              width="220"
-              height="220"
+              width="230"
+              height="230"
             />
           </div>
 
@@ -97,9 +96,101 @@
             </p>
           </div>
         </div>
-        <div id="projects"></div>
+
+        <!-- Client Carousel -->
+        <div class="row">
+          <div
+            class="col-md-12 d-flex justify-content-center align-items-center"
+          >
+            <h5 class="mainSectionHeader">My clients include...</h5>
+          </div>
+        </div>
+
+        <div id="clientsCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Client 1 -->
+            <div class="carousel-item active">
+              <div class="client-container">
+                <img
+                  height="200"
+                  src="./assets/images/Seal_of_the_President.svg.png"
+                  class="d-block mx-auto"
+                  alt="U.S. Air"
+                />
+                <p class="client-text">Air Force One (VC-25)</p>
+              </div>
+            </div>
+            <!-- Client 2 -->
+            <div class="carousel-item">
+              <div class="client-container">
+                <img
+                  height="200"
+                  src="./assets//images/microsoft-full-logo.png"
+                  class="d-block mx-auto ms-image"
+                  alt="Microsoft logo"
+                />
+                <p class="client-text">Microsoft's AI for Earth</p>
+              </div>
+            </div>
+
+            <!-- Client 3 -->
+            <div class="carousel-item">
+              <div class="client-container">
+                <img
+                  height="200"
+                  src="./assets/images/Logo_BLM.svg.png"
+                  class="d-block mx-auto"
+                  alt="U.S. Bureau of Land Management"
+                />
+                <p class="client-text">Bureau of Land Management (BLM)</p>
+              </div>
+            </div>
+            <!-- Client 4 -->
+            <div class="carousel-item">
+              <div class="client-container">
+                <img
+                  height="200"
+                  src="./assets/images/Seal_Census.png"
+                  class="d-block mx-auto"
+                  alt="U.S. Bureau of Land Management"
+                />
+                <p class="client-text">
+                  U.S. Census Bureau Center for Data Dissemination
+                </p>
+              </div>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <a
+              class="carousel-control-prev"
+              href="#clientsCarousel"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#clientsCarousel"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
+    <div id="projects"></div>
+
     <!-- Applications -->
     <!-- Header -->
     <section class="purpleSection">
@@ -324,31 +415,7 @@
         </div>
       </div>
     </section>
-
-    <!-- Client History -->
-    <!-- <section class="purpleSection">
-      <div class="app_container">
-        <div class="row">
-          <div
-            class="col-md-12 d-flex justify-content-center align-items-center"
-          >
-            <h2 class="mainSectionHeader">Client History</h2>
-            <p></p>
-            <p>US Air Force - VC-25 Air Force One</p>
-            <p>
-              US Dept of Commerce - U.S. Census Bureau, Center for Enterprise
-              Dissemination Services and Consumer Innovation (CEDSCI)
-            </p>
-            <p>U.S. Army Core of Engineers</p>
-            <p>Microsoft</p>
-            <p></p>
-
-            <p>Bureau of Land Management</p>
-          </div>
-        </div>
-      </div>
-      <div id="skills"></div>
-    </section> -->
+    <div id="skills"></div>
 
     <!-- Skills -->
     <section class="purpleToBlackSection">
@@ -479,7 +546,9 @@
           </div>
         </div>
       </div>
+      <br /><br /><br /><br /><br />
     </section>
+
     <!-- Footer -->
     <footer class="footer purpleSection d-flex justify-content-center">
       kmvn © 2023

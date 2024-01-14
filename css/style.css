@@ -56,12 +56,17 @@ html {
   justify-content: center;
   background-color: #6a7f99;
   color: white;
-  padding: 60px;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  /* min-height: 75vh; */
 }
 
 .hidden {
   opacity: 0;
 }
+
+
 .console_section {
   height: 100vh;
   width: 100%;
@@ -118,6 +123,24 @@ html {
   border-radius: 50%;
 }
 
+.client-container {
+  position: relative;
+  text-align: center;
+  min-height: 250px;
+}
+
+.client-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  padding: 5px 0px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .app_section {
   width: 100%;
   display: flex;
@@ -134,14 +157,14 @@ html {
 .purpleSection {
   background-color: #6a7f99;
   color: white;
-  padding: 60px;
+  padding: 120px 60px;
 }
 
 .mediumPurpleSection {
   background-color: #65576c;
   background-size: 120% 120%;
   color: white;
-  padding: 60px;
+  padding: 120px 60px;
 }
 
 .blackToPurpleSection {
@@ -245,13 +268,13 @@ i {
 } */
 
 .contact {
-  color: #f2f2f2;
+  color: darkgrey;
   padding-right: 7px;
   padding-left: 7px;
 }
 
 .contact:hover {
-  color: #ffee10;
+  color: white;
 }
 
 .footer {
