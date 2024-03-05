@@ -74,11 +74,16 @@ html {
   justify-content: center;
 }
 
+.name-row {
+  height: 32vh;
+  font-size: 3.5em;
+}
+
 .console-container {
   font-family: Khula;
-  font-size: 3.7em;
+  font-size: 2.5em;
   text-align: center;
-  height: 40vh;
+  height: 8vh;
   color: white;
   display: flex;
   justify-content: center;
@@ -211,7 +216,7 @@ html {
 .card {
   margin-bottom: 30px;
   min-width: 300px;
-  max-width: 425px;
+  max-width: 350px;
   color: black;
 }
 

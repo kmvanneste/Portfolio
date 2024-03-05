@@ -6,7 +6,6 @@ $(window).scroll(function () {
 // Terminal Text Effect
 consoleText(
   [
-    "Kristen Michelle Van Neste",
     "Front-End Web Developer",
     "Full-Stack Geospatial Engineer",
     "Wildlife Biologist",
