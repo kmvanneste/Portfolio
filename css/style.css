@@ -49,6 +49,12 @@ html {
   }
 }
 
+.athensSection {
+background: url("../assets/images/Athens_sunset.jpeg") no-repeat bottom / cover;
+color: white;
+/* filter:brightness(100%); */
+}
+
 .top_section {
   width: 100%;
   display: flex;
@@ -96,7 +102,7 @@ html {
   left: 9px;
 }
 .arrow-row {
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -142,7 +148,7 @@ html {
   color: white;
   padding: 5px 0px;
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -153,11 +159,7 @@ html {
   justify-content: center;
 }
 
-.athensSection {
-background: url("../assets/images/Athens_sunset.jpeg") no-repeat top / cover;
-color: white;
 
-}
 .blackSection {
   background-color: #435e82;
   color: white;
