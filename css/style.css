@@ -51,7 +51,7 @@ html {
 
 .athensSection {
 background: url("../assets/images/Athens_sunset.jpeg") no-repeat bottom / cover;
-color: white;
+color: #303330;
 /* filter:brightness(100%); */
 }
 
@@ -78,6 +78,7 @@ color: white;
   width: 100%;
   align-items: center;
   justify-content: center;
+
 }
 
 .name-row {
@@ -91,6 +92,7 @@ color: white;
   text-align: center;
   height: 8vh;
   color: white;
+;
   display: flex;
   justify-content: center;
   align-items: flex-end;
