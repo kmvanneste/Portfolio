@@ -14,7 +14,7 @@ consoleText(
 );
 
 function consoleText(words, id, colors) {
-  if (colors === undefined) colors = ["#fff"];
+  if (colors === undefined) colors = ["#303330"];
   var visible = true;
   var con = document.getElementById("console");
   var letterCount = 1;
