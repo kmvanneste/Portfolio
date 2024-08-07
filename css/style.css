@@ -14,7 +14,7 @@ html {
 }
 
 .navbar {
-  background-color: #435e82;
+  background-color: #18202b;
   font-size: 11pt;
   padding-left: 22px;
   position: fixed;
@@ -29,7 +29,7 @@ html {
 }
 
 .navbar-dark.scrolled {
-  background-color: #435e82 !important;
+  background-color: #18202b !important;
 }
 
 .nav-link {
@@ -49,11 +49,10 @@ html {
   }
 }
 
-.athensSection {
-background: url("../assets/images/Athens_sunset.jpeg") no-repeat bottom / cover;
+/* .athensSection {
+background: url("../assets/images/digital_earth.jpg") no-repeat center / cover;
 color: #303330;
 /* filter:brightness(100%); */
-}
 
 .top_section {
   width: 100%;
@@ -64,25 +63,42 @@ color: #303330;
   padding-top: 60px;
   padding-left: 60px;
   padding-right: 60px;
-  /* min-height: 75vh; */
+  min-height: 75vh;
+}
+
+.jumbotronBg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: url("../assets/images/digital_earth.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  height: 100vh;
+}
+
+.jumbotronContent {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 
 .hidden {
   opacity: 0;
 }
 
-
 .console_section {
-  height: 60vh;
   width: 100%;
   align-items: center;
   justify-content: center;
-
 }
 
 .name-row {
-  height: 25vh;
+  height: 50vh;
   font-size: 3.5em;
+  color: white;
 }
 
 .console-container {
@@ -90,11 +106,12 @@ color: #303330;
   font-size: 2.4em;
   text-align: center;
   height: 8vh;
-  color: #303330;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
+
 .console-underscore {
   display: inline-block;
   position: relative;
@@ -102,11 +119,12 @@ color: #303330;
   left: 9px;
 }
 .arrow-row {
-  height: 60vh;
+  height: 40vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  color: white;
 }
 
 .bounce {
@@ -128,10 +146,6 @@ color: #303330;
   60% {
     transform: translateY(-15px);
   }
-}
-
-.headshot {
-  border-radius: 50%;
 }
 
 .client-container {
@@ -159,36 +173,30 @@ color: #303330;
   justify-content: center;
 }
 
-
 .blackSection {
-  background-color: #435e82;
+  background-color: #18202b;
   color: white;
   padding: 60px;
 }
 
 .purpleSection {
-  background-color: #6a7f99;
-  color: white;
-  padding: 120px 60px;
-}
-
-.mediumPurpleSection {
-  background-color: #65576c;
-  background-size: 120% 120%;
+  background-color: #1f3553;
   color: white;
   padding: 120px 60px;
 }
 
 .blackToPurpleSection {
-  background-image: linear-gradient(#435e82, #6a7f99);
+  background-image: linear-gradient(#18202b, #1f3553);
   color: white;
   padding: 60px;
+  height: 100vh;
 }
 
 .purpleToBlackSection {
-  background-image: linear-gradient(#6a7f99, #435e82);
+  background-image: linear-gradient(#1f3553, #18202b);
   color: white;
   padding: 60px;
+  height: 100vh;
 }
 
 .mainSectionHeader {
@@ -205,7 +213,6 @@ color: #303330;
   margin-bottom: 40px;
 }
 
-
 .avatar {
   vertical-align: middle;
   width: 50px;
@@ -213,13 +220,13 @@ color: #303330;
   border-radius: 50%;
 }
 
-.btn {
-  opacity: 0.7;
-}
-
-.btn:hover {
+/* .btn {
   opacity: 1;
-}
+} */
+
+/* .btn:hover {
+  opacity: ;
+} */
 
 .card {
   margin-bottom: 30px;
@@ -249,10 +256,50 @@ color: #303330;
   padding-top: 25px;
 }
 
+.card-body {
+  display: flex;
+  align-items: center;
+}
+
 .card-text {
   font-size: 14px;
   padding: -5px;
 }
+
+.card {
+    overflow: hidden; /* Prevents any overflow from the card */
+}
+
+.position-relative {
+    position: relative; /* Sets a positioning context for the overlay */
+}
+
+.card-img-side {
+    width: 100%; /* Ensures the image takes full width of the card */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.overlay {
+    position: absolute; /* Positioning relative to the card image */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth transition for fade in/out */
+    display: flex; /* Flexbox for centering */
+    flex-direction: column;
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    text-align: center; /* Center text */
+}
+
+.position-relative:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
 
 i {
   padding: 10px 0px 10px 0px;
