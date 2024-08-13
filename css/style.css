@@ -15,12 +15,11 @@ html {
 
 .navbar {
   background-color: #18202b;
-  font-size: 11pt;
   padding-left: 22px;
   position: fixed;
   z-index: 350;
   width: 100%;
-  height: 49px;
+  height: 45px;
 }
 
 .navbar-dark {
@@ -34,12 +33,12 @@ html {
 
 .nav-link {
   color: white;
-  font-size: 19px;
+  font-size: 16px;
   margin-left: 15px;
 }
 
 .navbar-brand {
-  font-size: 19pt;
+  font-size: 16pt;
 }
 
 @media only screen and (max-width: 768px) {
@@ -48,11 +47,6 @@ html {
     margin-bottom: 65px;
   }
 }
-
-/* .athensSection {
-background: url("../assets/images/digital_earth.jpg") no-repeat center / cover;
-color: #303330;
-/* filter:brightness(100%); */
 
 .top_section {
   width: 100%;
@@ -71,14 +65,14 @@ color: #303330;
   background-image: url("../assets/images/digital_earth.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center right;
+  background-position: center;
   height: 100vh;
 }
 
 .jumbotronContent {
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -166,6 +160,10 @@ color: #303330;
   font-weight: bold;
 }
 
+section {
+  height: 100vh;
+}
+
 .app_section {
   width: 100%;
   display: flex;
@@ -190,6 +188,8 @@ color: #303330;
   color: white;
   padding: 60px;
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .purpleToBlackSection {
@@ -199,6 +199,12 @@ color: #303330;
   height: 100vh;
 }
 
+.white-line {
+  border-bottom: white 0.8px solid;
+  width: 100%;
+  border-radius: 5%;
+}
+
 .mainSectionHeader {
   padding-top: 5px;
   padding: 30px;
@@ -206,100 +212,54 @@ color: #303330;
 
 .sectionHeader {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .sectionSubHeader {
   margin-bottom: 40px;
 }
 
-.avatar {
-  vertical-align: middle;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-
-/* .btn {
-  opacity: 1;
-} */
-
-/* .btn:hover {
-  opacity: ;
-} */
-
-.card {
-  margin-bottom: 30px;
-  min-width: 300px;
-  max-width: 350px;
-  color: black;
-}
-
-.solo-card {
-  margin-bottom: 30px;
-  min-width: 300px;
-  max-width: 400px;
-  color: black;
-}
-
-.card-img-top {
-  height: 200px;
-  background-position: no-repeat center / cover;
-}
-
-.card-img-side {
-  height: 280px;
-  background-position: no-repeat center / cover;
-}
-
-.card-header {
-  padding-top: 25px;
-}
-
-.card-body {
-  display: flex;
-  align-items: center;
-}
-
-.card-text {
-  font-size: 14px;
-  padding: -5px;
+.btn {
+  background-color: #3f6cf2;
 }
 
 .card {
-    overflow: hidden; /* Prevents any overflow from the card */
+  overflow: hidden; /* Prevents any overflow from the card */
+  max-width: 560px;
+  max-height: 388px;
+  border-radius: 0%;
+  margin-bottom: 2.5rem;
 }
 
 .position-relative {
-    position: relative; /* Sets a positioning context for the overlay */
+  position: relative; /* Sets a positioning context for the overlay */
 }
 
 .card-img-side {
-    width: 100%; /* Ensures the image takes full width of the card */
-    height: auto; /* Maintains the aspect ratio */
+  width: 100%; /* Ensures the image takes full width of the card */
+  height: auto; /* Maintains the aspect ratio */
 }
 
 .overlay {
-    position: absolute; /* Positioning relative to the card image */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    color: white;
-    opacity: 0; /* Hidden by default */
-    transition: opacity 0.3s ease; /* Smooth transition for fade in/out */
-    display: flex; /* Flexbox for centering */
-    flex-direction: column;
-    align-items: center; /* Vertically center */
-    justify-content: center; /* Horizontally center */
-    text-align: center; /* Center text */
+  position: absolute; /* Positioning relative to the card image */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  color: white;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s ease; /* Smooth transition for fade in/out */
+  display: flex; /* Flexbox for centering */
+  flex-direction: column;
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+  text-align: center; /* Center text */
 }
 
 .position-relative:hover .overlay {
-    opacity: 1; /* Show overlay on hover */
+  opacity: 1; /* Show overlay on hover */
 }
-
 
 i {
   padding: 10px 0px 10px 0px;
@@ -323,10 +283,6 @@ i {
   transition: 0.5s;
 }
 
-/* img:hover {
-  background-color: #ffee10;
-} */
-
 .contact {
   color: darkgrey;
   padding-right: 7px;
@@ -340,6 +296,3 @@ i {
 .footer {
   padding: 2px;
 }
-
-/* Contrasting Yellow: #ffd700 */
-/* Contrasting Orange:  #ff7f50 */
