@@ -62,7 +62,8 @@ html {
 
 .jumbotronBg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-image: url("../assets/images/code-stock.jpeg");
+  /* background-image: url("../assets/images/code-stock.jpeg"); */
+  background-image: url("../assets/images/digital_earth.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
