@@ -62,7 +62,7 @@ html {
 
 .jumbotronBg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-image: url("../assets/images/digital_earth.jpg");
+  background-image: url("../assets/images/code-stock.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -172,19 +172,19 @@ section {
 }
 
 .blackSection {
-  background-color: #18202b;
+  background-color: #18202a;
   color: white;
   padding: 60px;
 }
 
 .purpleSection {
-  background-color: #1f3553;
+  background-color: #16263c;
   color: white;
   padding: 120px 60px;
 }
 
 .blackToPurpleSection {
-  background-image: linear-gradient(#18202b, #1f3553);
+  background-image: linear-gradient(#18202a, #16263c);
   color: white;
   padding: 60px;
   height: 100vh;
@@ -193,7 +193,7 @@ section {
 }
 
 .purpleToBlackSection {
-  background-image: linear-gradient(#1f3553, #18202b);
+  background-image: linear-gradient(#16263c, #18202a);
   color: white;
   padding: 60px;
   height: 100vh;
