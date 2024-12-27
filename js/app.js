@@ -6,10 +6,10 @@ $(window).scroll(function () {
 // Terminal Text Effect
 consoleText(
   [
-    "Front-End Web Developer",
+    "Technical Project Manager",
+    "Senior Front-End Web Developer",
     "Full-Stack Geospatial Engineer",
     "Wildlife Biologist",
-    "Yoga Instructor",
   ], "text"
 );
 
