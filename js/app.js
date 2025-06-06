@@ -8,8 +8,7 @@ consoleText(
   [
     "Technical Project Manager",
     "Senior Front-End Web Developer",
-    "Full-Stack Geospatial Engineer",
-    "Wildlife Biologist",
+    "Compassionate Leader"
   ], "text"
 );
 
